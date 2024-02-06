@@ -9,9 +9,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex justify-between items-center h-24 top-0 fixed w-full lg:px-[128px] md:px-[30px] sm:px-[30px] xs:px-[20px] bg-slate-50'>
-      <h1 className='w-full md:text-3xl xs:text-xl font-bold'>Portfolio.</h1>
-      <ul className='hidden md:flex'>
+    <div className='flex justify-between items-center h-20 top-0 fixed w-full lg:px-[128px] md:px-[30px] xs:px-[10px] bg-slate-100 font-customFont'>
+      <h1 className='w-full lg:text-3xl md:text-2xl xs:text-xl font-bold'>Portfolio.</h1>
+      <ul className='hidden md:flex font-semibold'>
         <li className='p-4 hover:text-[#9B30FF] cursor-pointer'><a href='#home'>Home</a></li>
         <li className='p-4 hover:text-[#9B30FF] cursor-pointer'><a href='#about'>About</a></li>
         <li className='p-4 hover:text-[#9B30FF] cursor-pointer'><a href='#services'>Services</a></li>
