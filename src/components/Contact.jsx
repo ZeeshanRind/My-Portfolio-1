@@ -53,10 +53,10 @@ const Contact = () => {
              <div className="flex flex-wrap flex-col -mx-3 mb-6">
 
               <div className="grid md:grid-cols-2  gap-2 mt-8">
-              <input className="bg-white text-gray-900 rounded py-4 pl-[20px] focus:outline-none" id="grid-first-name" type="text" placeholder="Full Name" />
-              <input className="bg-white text-gray-900 rounded py-4 pl-[20px] focus:outline-none" id="grid-first-name" type="text"     placeholder="Email Address" />
-              <input className="bg-white text-gray-900 rounded py-4 pl-[20px] focus:outline-none" id="grid-first-name" type="text"     placeholder="Mobile Number" />
-              <input className="bg-white text-gray-900 rounded py-4 pl-[20px] focus:outline-none" id="grid-first-name" type="text"     placeholder="Country" />
+              <input className="bg-white text-gray-900 rounded py-4 xs:pl-[20px] focus:outline-none" id="grid-first-name" type="text" placeholder="Full Name" />
+              <input className="bg-white text-gray-900 rounded py-4 xs:pl-[20px] focus:outline-none" id="grid-first-name" type="text"     placeholder="Email Address" />
+              <input className="bg-white text-gray-900 rounded py-4 xs:pl-[20px] focus:outline-none" id="grid-first-name" type="text"     placeholder="Mobile Number" />
+              <input className="bg-white text-gray-900 rounded py-4 xs:pl-[20px] focus:outline-none" id="grid-first-name" type="text"     placeholder="Country" />
               </div>
 
               <textarea id="message" rows="9" className="block p-2.5 mt-2 w-full rounded" placeholder="Your Message..."></textarea>

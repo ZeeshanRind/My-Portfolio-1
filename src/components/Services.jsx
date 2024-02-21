@@ -51,7 +51,7 @@ const Services = () => {
             <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2  pt-[30px] lg:mx-auto">
 
              <div
-              class="md:w-[350px] sm:w-[300px] ss:w-[445px] w-[200px] flex flex-col p-6 m-4 mt-6 justify-center items-center rounded shadow-lg bg-slate-200 hover:border-2 hover:border-gray-400
+              class="md:w-[350px] sm:w-[300px] ss:w-[445px] xs:w-auto w-[150px] flex flex-col p-6 m-4 mt-6 justify-center items-center rounded shadow-lg bg-slate-200 hover:border-2 hover:border-gray-400
              transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <CgWebsite  size={50}/>
                 <h1 className='lg:text-3xl md:text-2xl sm:text-xl font-bold md:py-2'>Web Development</h1>
@@ -60,7 +60,7 @@ const Services = () => {
              </div>
 
              <div
-              class="md:w-[350px] sm:w-[300px] ss:w-[445px] w-[200px] flex flex-col p-6 mt-2 mx-4 items-center rounded shadow-lg bg-slate-200 hover:border-2 hover:border-gray-400 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+              class="md:w-[350px] sm:w-[300px] ss:w-[445px] xs:w-auto w-[150px] flex flex-col p-6 mt-2 mx-4 items-center rounded shadow-lg bg-slate-200 hover:border-2 hover:border-gray-400 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <LiaApple  size={50}/>
                 <h1 className='lg:text-3xl md:text-2xl sm:text-xl font-bold md:py-2'>IOS Development</h1>
                 <p className='text-gray-500'>In addition to Android development, I have a strong background in iOS app development. Utilizing Swift and Objective-C, I develop engaging and polished applications for iPhones, iPads, and other iOS devices. I am proficient in Xcode and other iOS development tools.</p>
@@ -68,7 +68,7 @@ const Services = () => {
              </div>
 
              <div
-              class=" lg:w-[350px] md:w-[700px] sm:w-[600px] ss:w-[445px] w-[200px] flex flex-col p-6 m-4 mt-6 justify-center items-center rounded overflow-hidden shadow-lg bg-slate-200 hover:border-2 hover:border-slate-400 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">   
+              class=" lg:w-[350px] md:w-[700px] sm:w-[600px] ss:w-[445px] xs:w-auto w-[150px] flex flex-col p-6 m-4 mt-6 justify-center items-center rounded overflow-hidden shadow-lg bg-slate-200 hover:border-2 hover:border-slate-400 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">   
                 <AiOutlineAndroid  size={50}/>
                 <h1 className='lg:text-3xl md:text-2xl sm:text-xl font-bold md:py-2'>Android Developer</h1>
                 <p className='text-gray-500'>I possess extensive knowledge and experience in Android app development. Leveraging technologies such as Java and Kotlin, I create high-quality, scalable, and efficient Android applications. I am well-versed in Android Studio</p>
